@@ -2,115 +2,276 @@
     {
         "id" : 1,
         "name" : "Bulbizarre",
+        "hp": 70,
         "type": ["Plante", "Poison"],
         "description": "Bulbizarre passe son temps à faire la sieste sous le soleil. Il y a une graine sur son dos. Il absorbe les rayons du soleil pour faire doucement pousser la graine.",
         "image_url" : "https://www.pokepedia.fr/images/e/ef/Bulbizarre-RFVF.png",
         "evolutions" : {
             "before" : [],
             "after" : [2, 3]
-        }
+        },
+        "moves": [
+            {
+                "name": "Fouet Liane",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Tranch'Herbe",
+                "damage": 20,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Eau"],
+        "retreat_cost": 2
     },
     {
         "id" : 2,
         "name" : "Herbizarre",
+        "hp": 100,
         "type": ["Plante", "Poison"],
         "description": "Un bourgeon a poussé sur le dos de ce Pokémon. Pour en supporter le poids, Herbizarre a dû se muscler les pattes. Lorsqu'il commence à se prélasser au soleil, ça signifie que son bourgeon va éclore, donnant naissance à une fleur.",
         "image_url" : "https://www.pokepedia.fr/images/4/44/Herbizarre-RFVF.png",
         "evolutions" : {
             "before" : [1],
             "after" : [3]
-        }
+        },
+        "moves": [
+            {
+                "name": "Tranch'Herbe",
+                "damage": 20,
+                "cost": 2
+            },
+            {
+                "name": "Fouet Toxique",
+                "damage": 50,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Feu"],
+        "strengths": ["Eau"],
+        "retreat_cost": 4
     },
     {
         "id" : 3,
         "name" : "Florizarre",
+        "hp": 180,
         "type": ["Plante", "Poison"],
         "description": "Une belle fleur se trouve sur le dos de Florizarre. Elle prend une couleur vive lorsqu'elle est bien nourrie et bien ensoleillée. Le parfum de cette fleur peut apaiser les gens.",
         "image_url" : "https://www.pokepedia.fr/images/4/42/Florizarre-RFVF.png",
         "evolutions" : {
             "before" : [1, 2],
             "after" : []
-        }
+        },
+        "moves": [
+            {
+                "name": "Lance-Soleil",
+                "damage": 90,
+                "cost": 3
+            },
+            {
+                "name": "Fouet Vénéneux",
+                "damage": 130,
+                "cost": 4
+            }
+        ],
+        "weakness": ["Feu"],
+        "strengths": ["Eau"],
+        "retreat_cost": 4
     },
     {
         "id" : 4,
         "name" : "Salamèche",
+        "hp": 70,
         "type": ["Feu"],
         "description": "La flamme qui brûle au bout de sa queue indique l'humeur de ce Pokémon. Elle vacille lorsque Salamèche est content. En revanche, lorsqu'il s'énerve, la flamme prend de l'importance et brûle plus ardemment.",
         "image_url" : "https://www.pokepedia.fr/images/8/89/Salam%C3%A8che-RFVF.png",
         "evolutions" : {
             "before" : [],
             "after" : [5, 6]
-        }
+        },
+        "moves": [
+            {
+                "name": "Crocs Feu",
+                "damage": 20,
+                "cost": 2
+            },
+            {
+                "name": "Flammèche",
+                "damage": 30,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Eau"],
+        "strengths": ["Plante"],
+        "retreat_cost": 1
     },
     {
         "id" : 5,
         "name" : "Reptincel",
+        "hp": 100,
         "type": ["Feu"],
         "description": "Reptincel lacère ses ennemis sans pitié grâce à ses griffes acérées. S'il rencontre un ennemi puissant, il devient agressif et la flamme au bout de sa queue s'embrase et prend une couleur bleu clair.",
         "image_url" : "https://www.pokepedia.fr/images/6/64/Reptincel-RFVF.png",
         "evolutions" : {
             "before" : [4],
             "after" : [6]
-        }
+        },
+        "moves": [
+            {
+                "name": "Tranche",
+                "damage": 30,
+                "cost": 2
+            },
+            {
+                "name": "Lance-Flammes",
+                "damage": 80,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Eau"],
+        "strengths": ["Plante"],
+        "retreat_cost": 1
     },
     {
         "id" : 6,
         "name" : "Dracaufeu",
+        "hp": 170,
         "type": ["Feu", "Vol"],
         "description": "Dracaufeu parcourt les cieux pour trouver des adversaires à sa mesure. Il crache de puissantes flammes capables de faire fondre n'importe quoi. Mais il ne dirige jamais son souffle destructeur vers un ennemi plus faible.",
         "image_url" : "https://www.pokepedia.fr/images/1/17/Dracaufeu-RFVF.png",
         "evolutions" : {
             "before" : [4, 5],
             "after" : []
-        }
+        },
+        "moves": [
+            {
+                "name": "Calcination",
+                "damage": 90,
+                "cost": 3
+            },
+            {
+                "name": "Explosion de chaleur",
+                "damage": 120,
+                "cost": 4
+            }
+        ],
+        "weakness": ["Eau"],
+        "strengths": ["Plante"],
+        "retreat_cost": 2
     },
     {
         "id" : 7,
         "name" : "Carapuce",
+        "hp": 70,
         "type": ["Eau"],
         "description": "La carapace de Carapuce ne sert pas qu'à le protéger. La forme ronde de sa carapace et ses rainures lui permettent d'améliorer son hydrodynamisme. Ce Pokémon nage extrêmement vite.",
         "image_url" : "https://www.pokepedia.fr/images/c/cc/Carapuce-RFVF.png",
         "evolutions" : {
             "before" : [],
             "after" : [8, 9]
-        }
+        },
+        "moves": [
+            {
+                "name": "Charge",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Pluie Eclaboussante",
+                "damage": 20,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Plante", "Eclair"],
+        "strengths": ["Feu"],
+        "retreat_cost": 1
     },
     {
         "id" : 8,
         "name" : "Carabaffe",
+        "hp": 90,
         "type": ["Eau"],
         "description": "Carabaffe a une large queue recouverte d'une épaisse fourrure. Elle devient de plus en plus foncée avec l'âge. Les éraflures sur la carapace de ce Pokémon témoignent de son expérience aux combats.",
         "image_url" : "https://www.pokepedia.fr/images/2/2a/Carabaffe-RFVF.png",
         "evolutions" : {
             "before" : [7],
             "after" : [9]
-        }
+        },
+        "moves": [
+            {
+                "name": "Pistolet à O",
+                "damage": 30,
+                "cost": 1
+            },
+            {
+                "name": "Hydrocanon",
+                "damage": 50,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Plante", "Eclair"],
+        "strengths": ["Feu"],
+        "retreat_cost": 2
     },
     {
         "id" : 9,
         "name" : "Tortank",
+        "hp": 160,
         "type": ["Eau"],
         "description": "Tortank dispose de canons à eau émergeant de sa carapace. Ils sont très précis et peuvent envoyer des balles d'eau capables de faire mouche sur une cible située à plus de 50 m.",
         "image_url" : "https://www.pokepedia.fr/images/2/24/Tortank-RFVF.png",
         "evolutions" : {
             "before" : [7, 8],
             "after" : []
-        }
+        },
+        "moves": [
+            {
+                "name": "Double Canon",
+                "damage": 80,
+                "cost": 3
+            },
+            {
+                "name": "Bombe Eclaboussante",
+                "damage": 100,
+                "cost": 4
+            }
+        ],
+        "weakness": ["Plante", "Eclair"],
+        "strengths": ["Feu"],
+        "retreat_cost": 2
     },
     {
         "id" : 10,
         "name": "Chenipan",
+        "hp": 50,
         "type": ["Insecte"],
         "description": "Chenipan a un appétit d'ogre. Il peut engloutir des feuilles plus grosses que lui. Les antennes de ce Pokémon dégagent une odeur particulièrement entêtante.",
         "image_url": "https://www.pokepedia.fr/images/c/c7/Chenipan-RFVF.png",
         "evolutions": {
             "before": [],
             "after": [11, 12]
-        }
+        },
+        "moves": [
+            {
+                "name": "Piqûre",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Ronge",
+                "damage": 20,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 1
     },
     {
         "id" : 11,
+        "hp": 80,
         "name": "Chrysacier",
         "type": ["Insecte"],
         "description": "La carapace protégeant ce Pokémon est dure comme du métal. Chrysacier ne bouge pas beaucoup. Il reste immobile pour préparer les organes à l'intérieur de sa carapace en vue d'une évolution future.",
@@ -118,83 +279,210 @@
         "evolutions": {
             "before": [10],
             "after": [12]
-        }
+        },
+        "moves": [
+            {
+                "name": "Para-Spore",
+                "damage": 20,
+                "cost": 2
+            },
+            {
+                "name": "Piqûre",
+                "damage": 40,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 1
     },
     {
         "id" : 12,
         "name": "Papilusion",
+        "hp": 130,
         "type": ["Insecte", "Vol"],
         "description": "Papilusion est très doué pour repérer le délicieux nectar qu'il butine dans les fleurs. Il peut détecter, extraire et transporter le nectar de fleurs situées à plus de 10 km de son nid.",
         "image_url": "https://www.pokepedia.fr/images/8/83/Papilusion-RFVF.png",
         "evolutions": {
             "before": [10, 11],
             "after": []
-        }
+        },
+        "moves": [
+            {
+                "name": "Choc Mental",
+                "damage": 30,
+                "cost": 1
+            },
+            {
+                "name": "Cyclone",
+                "damage": 80,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 2
     },
     {
         "id" : 13,
         "name": "Aspicot",
+        "hp": 40,
         "type": ["Insecte", "Poison"],
         "description": "L'odorat d'Aspicot est extrêmement développé. Il lui suffit de renifler ses feuilles préférées avec son gros appendice nasal pour les reconnaître entre mille.",
         "image_url": "https://www.pokepedia.fr/images/9/9b/Aspicot-RFVF.png",
         "evolutions": {
             "before": [],
             "after": [14, 15]
-        }
+        },
+        "moves": [
+            {
+                "name": "Dard-Venin",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Transpercement",
+                "damage": 20,
+                "cost": 1
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 1
     },
     {
         "id" : 14,
         "name": "Coconfort",
+        "hp": 80,
         "type": ["Insecte", "Poison"],
         "description": "Coconfort est la plupart du temps immobile et reste accroché à un arbre. Cependant, intérieurement, il est très actif, car il se prépare pour sa prochaine évolution. En touchant sa carapace, on peut sentir sa chaleur.",
         "image_url": "https://www.pokepedia.fr/images/b/b6/Coconfort-RFVF.png",
         "evolutions": {
             "before": [13],
             "after": [15]
-        }
+        },
+        "moves": [
+            {
+                "name": "Crache-venin",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Poudre Toxik",
+                "damage": 20,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 1
     },
     {
         "id" : 15,
         "name": "Dardargnan",
+        "hp": 140,
         "type": ["Insecte", "Poison"],
         "description": "Dardargnan est extrêmement possessif. Il vaut mieux ne pas toucher à son nid si on veut éviter d'avoir des ennuis. Lorsqu'ils sont en colère, ces Pokémon attaquent en masse.",
         "image_url": "https://www.pokepedia.fr/images/e/ee/Dardargnan-RFVF.png",
         "evolutions": {
             "before": [13, 14],
             "after": []
-        }
+        },
+        "moves": [
+            {
+                "name": "Direct Toxik",
+                "damage": 80,
+                "cost": 3
+            },
+            {
+                "name": "Piqûre Pointue",
+                "damage": 120,
+                "cost": 4
+            }
+        ],
+        "weakness": ["Feu", "Vol"],
+        "strengths": ["Plante", "Poison"],
+        "retreat_cost": 2
     },
     {
         "id" : 16,
         "name": "Roucool",
+        "hp": 60,
         "type": ["Normal", "Vol"],
         "description": "Roucool a un excellent sens de l'orientation. Il est capable de retrouver son nid sans jamais se tromper, même s'il est très loin de chez lui et dans un environnement qu'il ne connaît pas.",
         "image_url": "https://www.pokepedia.fr/images/9/94/Roucool-RFVF.png",
         "evolutions": {
             "before": [],
             "after": [17, 18]
-        }
+        },
+        "moves": [
+            {
+                "name": "Vive-Attaque",
+                "damage": 10,
+                "cost": 1
+            },
+            {
+                "name": "Glissade",
+                "damage": 10,
+                "cost": 1
+            }
+        ],
+        "weakness": ["Eclair"],
+        "strengths": ["Plante", "Insecte"],
+        "retreat_cost": 1
     },
     {
         "id" : 17,
         "name": "Roucoups",
+        "hp": 90,
         "type": ["Normal", "Vol"],
         "description": "Roucoups utilise une vaste surface pour son territoire. Ce Pokémon surveille régulièrement son espace aérien. Si quelqu'un pénètre sur son territoire, il corrige l'ennemi sans pitié d'un coup de ses terribles serres.",
         "image_url": "https://www.pokepedia.fr/images/d/dc/Roucoups-RFVF.png",
         "evolutions": {
             "before": [16],
             "after": [18]
-        }
+        },
+        "moves": [
+            {
+                "name": "Embuscade",
+                "damage": 20,
+                "cost": 2
+            },
+            {
+                "name": "Cru-Ailes",
+                "damage": 40,
+                "cost": 2
+            }
+        ],
+        "weakness": ["Eclair"],
+        "strengths": ["Plante", "Insecte"],
+        "retreat_cost": 1
     },
     {
         "id" : 18,
         "name": "Roucarnage",
+        "hp": 130,
         "type": ["Normal", "Vol"],
         "description": "Ce Pokémon est doté d'un plumage magnifique et luisant. Bien des Dresseurs sont captivés par la beauté fatale de sa huppe et décident de choisir Roucarnage comme leur Pokémon favori.",
         "image_url": "https://www.pokepedia.fr/images/d/d8/Roucarnage-RFVF.png",
         "evolutions": {
             "before": [16, 17],
             "after": []
-        }
+        },
+        "moves": [
+            {
+                "name": "Ouragan",
+                "damage": 60,
+                "cost": 3
+            },
+            {
+                "name": "Vol Glissé",
+                "damage": 80,
+                "cost": 3
+            }
+        ],
+        "weakness": ["Eclair"],
+        "strengths": ["Plante", "Insecte"],
+        "retreat_cost": 2
     }
 ]
