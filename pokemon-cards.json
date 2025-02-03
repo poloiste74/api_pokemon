@@ -408,7 +408,7 @@
         "id" : 16,
         "name": "Roucool",
         "hp": 60,
-        "type": ["Normal", "Vol"],
+        "type": ["Vol"],
         "description": "Roucool a un excellent sens de l'orientation. Il est capable de retrouver son nid sans jamais se tromper, même s'il est très loin de chez lui et dans un environnement qu'il ne connaît pas.",
         "image_url": "https://www.pokepedia.fr/images/9/94/Roucool-RFVF.png",
         "evolutions": {
@@ -435,7 +435,7 @@
         "id" : 17,
         "name": "Roucoups",
         "hp": 90,
-        "type": ["Normal", "Vol"],
+        "type": ["Vol"],
         "description": "Roucoups utilise une vaste surface pour son territoire. Ce Pokémon surveille régulièrement son espace aérien. Si quelqu'un pénètre sur son territoire, il corrige l'ennemi sans pitié d'un coup de ses terribles serres.",
         "image_url": "https://www.pokepedia.fr/images/d/dc/Roucoups-RFVF.png",
         "evolutions": {
@@ -462,7 +462,7 @@
         "id" : 18,
         "name": "Roucarnage",
         "hp": 130,
-        "type": ["Normal", "Vol"],
+        "type": ["Vol"],
         "description": "Ce Pokémon est doté d'un plumage magnifique et luisant. Bien des Dresseurs sont captivés par la beauté fatale de sa huppe et décident de choisir Roucarnage comme leur Pokémon favori.",
         "image_url": "https://www.pokepedia.fr/images/d/d8/Roucarnage-RFVF.png",
         "evolutions": {
